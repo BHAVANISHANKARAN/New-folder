@@ -1,18 +1,9 @@
-console.log(1 + 2);
-let t1 = [100, 200];
-let t2 = [...t1];
-let t3 = [50, ...t1, 40, 60];
+const movieURL = (domain, genre, year) => {
+  return "http://" + domain + "?genre=" + genre + "&year" + year;
+};
+console.log(movieURL("imdb.com", "thriller", 2020));
 
-console.log(t1, t2);
-console.log(t1 == t2);
-console.log(t3);
-
-let t4 = t1.concat([40]);
-console.log(t4);
-
-let t5 = [].concat(t1);
-
-console.log(t5);
-
-var y = console.log("hi");
-console.log(y);
+const movieURL1 = (domain, genre, year) => {
+  return `http://${domain}?genre=${genre}&year${year}`;
+};
+console.log(movieURL1("imdb.com", "thriller", 2020));
