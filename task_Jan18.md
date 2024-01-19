@@ -74,3 +74,5 @@ console.log(sum(3)(4)(5));
 
 - QUIC (Quick UDP Internet connections) is a transport layer protocol that is used to overcome certain inefficiencies found in TCP.
 - QUIC supports multiplexing i.e multiple streams over a single connection and thereby reduces the impact of head of the line blocking.
+
+- In HTTP 2, all the requests are passed in a single stream and if a packet is lost in a request, all other requests should also wait
