@@ -87,3 +87,14 @@ if (person1.place && person1.place.city) {
 //?. optional chaining
 console.log(person1?.place?.city);
 ```
+
+# defensive code
+
+- trying to protect our code with errors
+- DRY - dont repeat urself.
+
+IIFE - used by library author, no need to worry about name clash, name space is free.
+
+Converting a function to iife - webpack, babble
+
+- either to assign an anonymous function to a variable
