@@ -79,3 +79,80 @@ console.log(resultArray);
 - Declarative : What to do? It is more expressive
 
 ## Dictionary sort
+
+- for each - doesn't return anything
+
+- rest operator must be at the last
+
+- json is just a string
+
+## why we use json :
+
+- json is the universal glue
+- every language has string,
+- tight coupling : the backend sends the data in html format. Hence it can,t be used for mobile applications. Hence json is used for loose coupling.
+
+## JSON.stringify() - converts object to string
+
+## JSON.parse() - converts string to object
+
+```js
+console.log(JSON.stringify({ uno: 1, dos: 2 }, null, "\t"));
+/*
+{
+	"uno": 1,
+	"dos": 2
+}
+*/
+```
+
+## Deep copy :
+
+- while using deep copy, consider the functions that are present
+- spread operator uses shallow copy.
+
+# SDLC :
+
+- PLANNING
+- ANALYSIS
+- DESIGN
+- IMPLEMENTATION
+- TESTING AND INTEGRATION
+- MAINTAINANCE
+
+- stakeholders : who are responsible
+- Waterfall model:
+- Agile model: this can be implemented using SCRUM
+
+- ADOC -
+- backlog : Uncompleted work
+- retrospective : what can be improved after 14 days
+- story points:
+- sprint planning: initial step of sprint
+- spill over: if the time exceeds
+- stand up - every day meeting (10 mins)
+
+## KAN BAN board:
+
+Backlog | In Progress | Peer review | Done
+
+- Insiders program:
+- feature branch : developers work
+- dev branch -
+- master branch
+
+git pull
+git fetch --all
+git branch -D branch_name;
+
+## Assignment - git rebase
+
+- what does git rebase -i does
+- how to remove commit?
+- if we remove commit , how to push it to github?
+- what is fork in git?
+
+## base and head :
+
+- Base branch : "Base Branch" is the branch where your new changes should be applied / integrated into.
+- Head Branch: The "Head Branch" is the branch that contains the changes you want to integrate.
