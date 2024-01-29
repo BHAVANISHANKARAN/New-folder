@@ -31,6 +31,43 @@ userProfileAccess(array);
 
 // Task 2 :Nested Data Retrieval
 
+const company = {
+  departments: [
+    {
+      name: "Engineering",
+      manager: {
+        name: "Virat",
+      },
+    },
+    {
+      name: "Sales",
+      manager: {
+        name: "Rohit",
+      },
+    },
+    {
+      name: "Marketing",
+      manager: {
+        name: "Mahi",
+      },
+    },
+    {
+      name: "Finance",
+      manager: {
+        name: "Rahul",
+      },
+    },
+  ],
+};
+
+const getManager = (company, deptName) => {
+  const department = company?.departments?.find(
+    (dept) => dept.name === deptName
+  )?.manager?.name;
+  return department || "Manager not found";
+};
+console.log(getManager(company, "Engineering"));
+
 // Task 3 :Nested Data retrieval
 
 const stock = [
