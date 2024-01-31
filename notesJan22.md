@@ -156,3 +156,10 @@ git branch -D branch_name;
 
 - Base branch : "Base Branch" is the branch where your new changes should be applied / integrated into.
 - Head Branch: The "Head Branch" is the branch that contains the changes you want to integrate.
+
+## complexity:
+
+- o(2n) = n;
+- o(n+1) = n;
+
+- set can be spreaded

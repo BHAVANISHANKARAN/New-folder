@@ -1,3 +1,5 @@
+// ARRAY METHODS
+
 // Task 1: High-Value Transactions in 2023
 
 const transactions = [

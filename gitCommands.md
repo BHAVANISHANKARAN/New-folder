@@ -20,7 +20,7 @@
  git rebase --interactive <base>
 ```
 
-- This rebases the current branch onto ＜ base ＞ but uses an interactive rebasing session. This opens an editor where you can enter commands (described below) for each commit to be rebased.
+- This rebases the current branch onto ＜ base ＞ but uses an interactive rebasing session. This opens an editor where you can enter commands for each commit to be rebased.
 
 ## 3. How to remove the commit :
 

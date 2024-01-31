@@ -1,3 +1,5 @@
+// OPTIONAL CHAINING
+
 // Task 1: User profile Access
 
 const array = [

@@ -8,7 +8,7 @@
 
 var price = 200;
 function getPrice() {
-  // TDZ
+  // TDZ -
   console.log("The old price is:", price); //undefined
   var a = 400;
   console.log("The new price is :", price); //400
