@@ -25,7 +25,7 @@ addThreeUsers();
 
 const changeAvatar = {
   avatar:
-    "https://www.istockphoto.com/vector/flag-of-india-gm519611160-90622047",
+    "https://img.freepik.com/free-vector/brush-stroke-style-indian-flag-theme-independence-day-background-vector_1055-10859.jpg",
 };
 
 fetch(`https://65bb5cf552189914b5bbdab4.mockapi.io/users`)
