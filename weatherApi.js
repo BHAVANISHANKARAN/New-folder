@@ -32,7 +32,6 @@
 //   );
 // });
 
-//
 // var cities = ["chennai", "madurai", "erode"];
 
 // function getTemp(city) {
