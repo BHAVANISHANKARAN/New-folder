@@ -9,16 +9,13 @@ async function addThreeUsers() {
 
   await Promise.all(
     data.map(async (user) => {
-      const res = await fetch(
-        `https://65bb5cf452189914b5bbda98.mockapi.io/users`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(user),
-        }
-      );
+      const res = await fetch(`https://65bb5cf552189914b5bbdab4.mockapi.io/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
+      });
     })
   );
 }
@@ -31,11 +28,11 @@ const changeAvatar = {
     "https://www.istockphoto.com/vector/flag-of-india-gm519611160-90622047",
 };
 
-fetch("https://65bb5cf652189914b5bbdac7.mockapi.io/users")
+fetch(`https://65bb5cf552189914b5bbdab4.mockapi.io/users`)
   .then((res) => res.json())
   .then((data) =>
     data.forEach((obj) =>
-      fetch(`https://65bb5cf652189914b5bbdac7.mockapi.io/users/${obj.id}`, {
+      fetch(`https://65bb5cf552189914b5bbdab4.mockapi.io/users/${obj.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
